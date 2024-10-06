@@ -2,35 +2,34 @@ import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 
-// Register the necessary components for Chart.js
+
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const BrowserUsage = () => {
-    // Data for the chart
+    
     const data = {
         labels: ['Chrome', 'Firefox', 'IE'],
         datasets: [
             {
                 data: [4306, 3801, 1689],
-                backgroundColor: ['#4285F4', '#FBBC05', '#EA4335'], // Colors for Chrome, Firefox, IE
+                backgroundColor: ['#4285F4', '#FBBC05', '#EA4335'], 
                 hoverBackgroundColor: ['#4285F4', '#FBBC05', '#EA4335'],
                 borderWidth: 0,
             },
         ],
     };
 
-    // Options for the chart
     const options = {
         maintainAspectRatio: false,
         plugins: {
             legend: {
-                display: false, // Hides the legend inside the chart
+                display: false, 
             },
             tooltip: {
-                enabled: true, // Tooltip will show on hover
+                enabled: true, 
             },
         },
-        cutout: '70%', // Creates the donut shape by cutting out the center
+        cutout: '70%', 
     };
 
     return (

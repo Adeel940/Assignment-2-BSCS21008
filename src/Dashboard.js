@@ -4,6 +4,7 @@ import NavBar from './components/navBar';
 import SideBar from './components/sideBar';
 import RecentMovement from './components/RecentMovement';
 import BrowserUsage from './components/BrowserUsage';
+import Latestprojects from './components/projects';
 
 const Dashboard = () => {
     return (
@@ -46,6 +47,9 @@ const Dashboard = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
                         <RecentMovement />
                         <BrowserUsage/>
+                    </div>
+                    <div className="mt-5">
+                         <Latestprojects/>
                     </div>
                 </div>
             </div>
