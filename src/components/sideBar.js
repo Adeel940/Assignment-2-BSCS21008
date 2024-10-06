@@ -17,12 +17,17 @@ const SideBar = () => {
                 </li>
                 <li className="text-gray-300 py-2 px-4 hover:bg-gray-700 rounded">
                     
-                <Link to="/signin">
+                   <Link to="/signin">
                         SignIn
                     </Link>
                 </li>
 
-                <li className="text-gray-300 py-2 px-4 hover:bg-gray-700 rounded">Sign Up</li>
+                <li className="text-gray-300 py-2 px-4 hover:bg-gray-700 rounded">
+                    
+                    <Link to="/signup">
+                        SignUp
+                    </Link>
+                </li>
                 <li className="text-gray-300 py-2 px-4 hover:bg-gray-700 rounded">Blank</li>
             </ul>
         </div>
