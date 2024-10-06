@@ -1,13 +1,13 @@
 import React from 'react';
 import DashboardCard from './DashboardCard';
-
+import NavBar from './navBar';
 
 const Dashboard = () => {
     return (
         <div className="flex">
             
             <div className="flex-1">
-                
+                <NavBar/>
                 <div className="p-6 bg-gray-100">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         <DashboardCard 
