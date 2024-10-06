@@ -1,11 +1,12 @@
 import React from 'react';
 import DashboardCard from './DashboardCard';
 import NavBar from './navBar';
+import SideBar from './sideBar';
 
 const Dashboard = () => {
     return (
         <div className="flex">
-            
+            <SideBar/>
             <div className="flex-1">
                 <NavBar/>
                 <div className="p-6 bg-gray-100">
