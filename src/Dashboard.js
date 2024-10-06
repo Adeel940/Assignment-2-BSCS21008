@@ -3,7 +3,7 @@ import DashboardCard from './components/DashboardCard';
 import NavBar from './components/navBar';
 import SideBar from './components/sideBar';
 import RecentMovement from './components/RecentMovement';
-
+import BrowserUsage from './components/BrowserUsage';
 
 const Dashboard = () => {
     return (
@@ -45,7 +45,7 @@ const Dashboard = () => {
                     
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
                         <RecentMovement />
-                      
+                        <BrowserUsage/>
                     </div>
                 </div>
             </div>

@@ -2,11 +2,11 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, LineElement, PointElement, LinearScale, CategoryScale } from 'chart.js';
 
-// Register the necessary components
+
 ChartJS.register(LineElement, PointElement, LinearScale, CategoryScale);
 
 const RecentMovement = () => {
-    // Data for the chart
+  
     const data = {
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         datasets: [
@@ -14,8 +14,8 @@ const RecentMovement = () => {
                 label: 'Recent Movement',
                 data: [1500, 1400, 1600, 1700, 1800, 2000, 2500, 2800, 3000, 3200, 3500, 3600],
                 fill: true,
-                backgroundColor: 'rgba(54, 162, 235, 0.2)', // Light blue gradient
-                borderColor: 'rgba(54, 162, 235, 1)', // Blue line
+                backgroundColor: 'rgba(54, 162, 235, 0.2)', 
+                borderColor: 'rgba(54, 162, 235, 1)', 
                 pointBackgroundColor: 'rgba(54, 162, 235, 1)',
                 pointBorderColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
@@ -24,7 +24,7 @@ const RecentMovement = () => {
         ],
     };
 
-    // Options for customizing the chart
+ 
     const options = {
         maintainAspectRatio: false,
         scales: {
