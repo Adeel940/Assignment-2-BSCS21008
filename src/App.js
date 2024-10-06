@@ -1,8 +1,16 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Dashboard from "./Dashboard";
+import Profile from "./profile";
 
 function App() {
   return (
-    <Dashboard/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard/>} />
+        <Route path="/profile" element={<Profile/>} />
+      </Routes>
+    </Router>
   );
 }
 

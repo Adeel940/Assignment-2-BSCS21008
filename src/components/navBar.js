@@ -10,7 +10,7 @@ const NavBar = () => {
                     <i className="fas fa-bell text-gray-500"></i>
                 </div>
                 <div className="flex items-center">
-                    <img className="h-8 w-8 rounded-full" src="src\Assets\long.jpg" alt="profile" />
+                    <img className="h-8 w-8 rounded-full" src="../Assets/bruce lee.jpg" alt="profile" />
                     <span className="ml-2">Charles Hall</span>
                 </div>
             </div>
