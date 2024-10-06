@@ -9,7 +9,7 @@ import Latestprojects from './components/projects';
 const Dashboard = () => {
     return (
         <div className="flex">
-            <SideBar/>
+            <SideBar className="h-auto"/>
             <div className="flex-1">
                 <NavBar/>
                 <div className="p-6 bg-gray-100">

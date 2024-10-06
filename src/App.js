@@ -4,6 +4,7 @@ import Dashboard from "./Dashboard";
 import Profile from "./profile";
 import SignIn from "./signin";
 import SignUp from "./signup";
+import BlankPage from "./Blank";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/profile" element={<Profile/>} />
         <Route path="/signin" element={<SignIn/>}/>
         <Route path="/signup" element={<SignUp/>}/>
+        <Route path="/Blank" element={<BlankPage/>} />
       </Routes>
     </Router>
   );
