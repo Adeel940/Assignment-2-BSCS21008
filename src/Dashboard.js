@@ -2,6 +2,8 @@ import React from 'react';
 import DashboardCard from './components/DashboardCard';
 import NavBar from './components/navBar';
 import SideBar from './components/sideBar';
+import RecentMovement from './components/RecentMovement';
+
 
 const Dashboard = () => {
     return (
@@ -40,7 +42,11 @@ const Dashboard = () => {
                             color="bg-red-100" 
                         />
                     </div>
-                    {/* Add more components like Chart or Recent Movement here */}
+                    
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                        <RecentMovement />
+                      
+                    </div>
                 </div>
             </div>
         </div>
