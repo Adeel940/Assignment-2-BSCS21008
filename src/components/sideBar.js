@@ -36,10 +36,10 @@ const SideBar = () => {
                 </li>
             </ul>
 
-            <h3 className="text-white text-lg font-semibold mb-2 mt-2">Other Components</h3>
+            <h3 className="text-white text-lg font-semibold mb-2 mt-2">Other Web Pages</h3>
             <ul>
                 <li className="text-gray-300 py-2 px-4 hover:bg-gray-700 rounded">
-                    <Link to="/">
+                    <Link to="/menu">
                         Menu
                     </Link>
                 </li>
