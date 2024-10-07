@@ -2,8 +2,8 @@ import React from 'react';
 import About from './about';
 import Skills from './Skills';
  import Education from './Education';
-// import Experience from './Experience';
-// import Projects from './Projects';
+ import Experience from './Experience';
+ import ProfileProjects from './ProfileProjects';
 // import Hobbies from './Hobbies';
 // import Blogs from './Blogs';
 // import Feed from './Feed';
@@ -16,9 +16,9 @@ const MainContent = () => {
       <About />
        <Skills />
       <Education />
-      {/*<Experience />
-      <Projects />
-      <Hobbies />
+      <Experience />
+      <ProfileProjects/>
+      {/*<Hobbies />
       <Blogs />
       <Feed />
       <Contact /> */}
