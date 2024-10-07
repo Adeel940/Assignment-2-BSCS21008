@@ -5,6 +5,8 @@ import Profile from "./profile";
 import SignIn from "./signin";
 import SignUp from "./signup";
 import BlankPage from "./Blank";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (

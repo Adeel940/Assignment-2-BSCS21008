@@ -1,13 +1,11 @@
 import React from 'react';
 import About from './about';
 import Skills from './Skills';
- import Education from './Education';
- import Experience from './Experience';
- import ProfileProjects from './ProfileProjects';
-// import Hobbies from './Hobbies';
-// import Blogs from './Blogs';
-// import Feed from './Feed';
-// import Contact from './Contact';
+import Education from './Education';
+import Experience from './Experience';
+import ProfileProjects from './ProfileProjects';
+import Hobbies from './Hobbies';
+
 
 const MainContent = () => {
   return (
@@ -18,10 +16,7 @@ const MainContent = () => {
       <Education />
       <Experience />
       <ProfileProjects/>
-      {/*<Hobbies />
-      <Blogs />
-      <Feed />
-      <Contact /> */}
+      <Hobbies />
     </main>
   );
 };
