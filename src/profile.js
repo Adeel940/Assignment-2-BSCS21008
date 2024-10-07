@@ -2,6 +2,7 @@ import React from 'react';
 import DashboardCard from './components/DashboardCard';
 import NavBar from './components/navBar';
 import SideBar from './components/sideBar';
+import MainContent from './components/mainContent';
 
 const Profile = () => {
     return (
@@ -10,7 +11,7 @@ const Profile = () => {
             <div className="flex-1">
                 <NavBar/>
                 <div>
-                    <h1>Adeel</h1>
+                    <MainContent/>
                 </div>
             </div>
         </div>
