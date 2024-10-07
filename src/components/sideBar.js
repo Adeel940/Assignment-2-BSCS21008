@@ -44,8 +44,8 @@ const SideBar = () => {
                     </Link>
                 </li>
                 <li className="text-gray-300 py-2 px-4 hover:bg-gray-700 rounded">
-                    <Link to="/profile">
-                        Buttons
+                    <Link to="/icons">
+                        Icons
                     </Link>
                 </li>
                 <li className="text-gray-300 py-2 px-4 hover:bg-gray-700 rounded">

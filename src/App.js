@@ -6,6 +6,7 @@ import SignIn from "./signin";
 import SignUp from "./signup";
 import BlankPage from "./Blank";
 import MainMenu from "./MainMenu"
+import IconsList from "./icons"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signup" element={<SignUp/>}/>
         <Route path="/Blank" element={<BlankPage/>} />
         <Route path="/menu" element={<MainMenu/>}/>
+        <Route path="/icons" element={<IconsList/>}/>
       </Routes>
     </Router>
   );
